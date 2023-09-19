@@ -1,3 +1,5 @@
+/* Basic styling */
+
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -21,6 +23,8 @@ img {
     height: auto;
 }
 
+/* Section wrapper Styling */
+
 .site-header-inner-wrapper,
 .thumbnail-section-inner-wrapper,
 .quote-section-inner-wrapper,
@@ -37,3 +41,14 @@ img {
 .quote-section-inner-wrapper {
     max-width: 900px;
 }
+
+/* Header Styles */
+
+
+/* Thumbnail Section Styles */
+
+
+/* Quote Section Styles */
+
+
+/* Footer Styles */
