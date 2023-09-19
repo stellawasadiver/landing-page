@@ -4,6 +4,8 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 18px;
+    color: #1F2937;
+    margin: 0;
 }
 
 h1, h2, h3 {
@@ -16,6 +18,22 @@ h1 {
 
 h2 {
     font-size: 36px;
+}
+
+blockquote p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+blockquote footer cite {
+    font-weight: 700;
+    font-style: normal;
+}
+
+blockquote footer cite::before {
+    content: "\2014";
+    margin-right: 3px;
 }
 
 img {
@@ -44,6 +62,66 @@ img {
 
 /* Header Styles */
 
+#site-header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.site-header-inner-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-logo-wrapper a,
+.main-navigation a {
+    display: inline-block;
+    padding: 15px;
+}
+
+.header-logo-text {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
+
+.header-logo a svg {
+    fill: #F9FAF8;
+}
+
+.main-navigation-wrapper {
+    flex-grow: 1;
+}
+
+.main-navigation ul {
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navigation ul li {
+    margin-left: 25px;
+}
+
+.main-navigation ul li a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.welcome-wrapper {
+    display: flex;
+    flex-basis: 100%;
+    gap: 25px;
+    margin: 50px 0;
+}
+
+.welcome-wrapper > * {
+    padding: 15px;
+}
 
 /* Thumbnail Section Styles */
 
